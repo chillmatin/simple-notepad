@@ -2,8 +2,12 @@
 
 Simple notepad application built with Tkinter tools in Python
 
-To run the application run main.py file
+## Installation
+Download latest release and extract the .zip file. Run 'Notepad.exe' 
+
+To run the application from source code run main.py file
 
 ```console
 python3 main.py
 ```
+
