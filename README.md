@@ -25,5 +25,10 @@ sudo dnf install python3-tkinter
 ```
 
 
+#### MacOS
+```bash
+brew install python-tk@3.9
+```
+
 ## Fixes
 To fix blurry windows issue uncomment windll lines in `main.py` file
