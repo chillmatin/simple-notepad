@@ -3,7 +3,7 @@ from tkinter import messagebox
 from tkinter import filedialog
 from tkinter import colorchooser
 from pathlib import Path
-from ctypes import windll
+#from ctypes import windll  # it's for fixing blurry windows ui
 import variables
 
 
@@ -160,7 +160,7 @@ def about():
                                 'github: chillmetin')
 
 
-windll.shcore.SetProcessDpiAwareness(1)  # fix for blurry windows 10 scaling
+#windll.shcore.SetProcessDpiAwareness(1)  # fix for blurry windows 10 scaling
 
 # OPEN FILE VARIABLES
 is_file_open = False
